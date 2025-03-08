@@ -12,6 +12,7 @@ body {
   margin: auto;
   width: 28vw;
   margin-top: 10%;
+  border-radius: 5px 5px 0px 0px;
 }
 
 #bottom-container {
@@ -24,6 +25,7 @@ body {
   margin: auto;
   width: 28vw;
   gap: 20px;
+  border-radius: 0px 0px 5px 5px;
 }
 
 #input-container {
@@ -63,16 +65,20 @@ input {
   height: 100px;
   width: 90%;
   margin: auto;
-  text-align: center;
-  justify-content: center;
   border-radius: 5px;
   color: #1f1f1f;
 }
 
 #length-result {
   margin-top: 20px;
+  text-align: center;
+  justify-content: center;
 }
 
 #mass-result {
   margin-bottom: 20px;
+}
+
+h2 {
+  color: #32b3ff;
 }
