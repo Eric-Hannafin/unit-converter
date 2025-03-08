@@ -10,7 +10,7 @@ body {
   text-align: center;
   justify-content: center;
   margin: auto;
-  width: 30%;
+  width: 28vw;
   margin-top: 10%;
 }
 
@@ -22,7 +22,8 @@ body {
   text-align: center;
   justify-content: center;
   margin: auto;
-  width: 30%;
+  width: 28vw;
+  gap: 20px;
 }
 
 #input-container {
@@ -52,13 +53,26 @@ input {
   width: 120px;
   border-radius: 5px;
   border: none;
-  font-weight: bold;
   font-size: large;
   cursor: pointer;
   margin-bottom: 3%;
 }
 
-#result {
-  background-color: lightgray;
+.result-box {
+  background-color: aliceblue;
   height: 100px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #1f1f1f;
+}
+
+#length-result {
+  margin-top: 20px;
+}
+
+#mass-result {
+  margin-bottom: 20px;
 }
